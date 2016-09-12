@@ -11,9 +11,9 @@ public class Triangle {
     private double sideC = 0;
     
     public Triangle(double a, double b, double c) {
-        this.sideA = a;
-        this.sideB = b;
-        this.sideC = c;
+        this.sideA = Math.abs(a);
+        this.sideB = Math.abs(b);
+        this.sideC = Math.abs(c);
     }
     
     public boolean isEqualateral() {
