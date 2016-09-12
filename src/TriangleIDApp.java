@@ -6,8 +6,6 @@
  * Created 9/11/16 by Andrew Shubin
  */
 
-import com.sun.xml.internal.bind.v2.model.util.ArrayInfoUtil;
-
 import java.util.*;
 
 public class TriangleIDApp {
