@@ -1,7 +1,7 @@
 /*
  * TriangleIDApp.java
  *
- * Version 1.0
+ * Version 1.0.0.0
  *
  * Created 9/11/16 by Andrew Shubin
  */
