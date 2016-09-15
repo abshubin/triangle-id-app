@@ -50,10 +50,9 @@ public class TriangleIDApp {
                                         // than the sum of the other two sides
     }
 
-    // isDouble method from... http://stackoverflow.com/questions/3133770/how-to-find-out-if-the-value-contained-in-a-string-is-double-or-not
-    private static boolean isDouble(String str) {
+    private static boolean isDouble(String s) {
         try {
-            Double.parseDouble(str);
+            Double.parseDouble(s);
             return true;
         } catch (NumberFormatException e) {
             return false;

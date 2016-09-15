@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7869c065-f2f1-4139-abd9-3e7a1d34aed9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/TriangleID/Triangle.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/TriangleID/TriangleIDApp.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/TriangleID/TriangleUI$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/TriangleID/TriangleUI$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/TriangleID/TriangleUI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Triangle.java" afterPath="$PROJECT_DIR$/src/Triangle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TriangleIDApp.java" afterPath="$PROJECT_DIR$/src/TriangleIDApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TriangleUI.java" afterPath="$PROJECT_DIR$/src/TriangleUI.java" />
     </list>
@@ -35,34 +28,12 @@
       <file leaf-file-name="TriangleUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TriangleUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="180">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
               <folding>
-                <element signature="e#0#3501#0" expanded="true" />
+                <element signature="e#0#3774#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#955#1119#0" expanded="true" />
-                <element signature="e#1118#1119#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TriangleIDApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TriangleIDApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Triangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -89,9 +60,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/TriangleApp.java" />
-        <option value="$PROJECT_DIR$/src/TriangleUI.java" />
-        <option value="$PROJECT_DIR$/src/TriangleIDApp.java" />
         <option value="$PROJECT_DIR$/src/Triangle.java" />
+        <option value="$PROJECT_DIR$/src/TriangleIDApp.java" />
+        <option value="$PROJECT_DIR$/src/TriangleUI.java" />
       </list>
     </option>
   </component>
@@ -658,12 +629,12 @@
       <option name="presentableId" value="Default" />
       <updated>1473635532390</updated>
       <workItem from="1473635535451" duration="10698000" />
-      <workItem from="1473921743519" duration="7838000" />
+      <workItem from="1473921743519" duration="8147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18536000" />
+    <option name="totallyTimeSpent" value="18845000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -687,7 +658,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32869378" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2561366" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -730,10 +701,8 @@
         <state relative-caret-position="126">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
-            <element signature="e#0#3501#0" expanded="true" />
+            <element signature="e#0#3774#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#955#1119#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -742,7 +711,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#1699#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -757,21 +728,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TriangleIDApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="846">
+          <caret line="49" column="59" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#1699#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TriangleUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="180">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding>
-            <element signature="e#0#3501#0" expanded="true" />
+            <element signature="e#0#3774#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#955#1119#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
           </folding>
         </state>
       </provider>

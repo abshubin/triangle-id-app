@@ -14,8 +14,13 @@ import javax.swing.*;
 public class TriangleUI {
 
     /*
-     *   Code heavily influenced by sample code at:
+     *   SWING code heavily influenced by sample code at:
      *   https://www.tutorialspoint.com/swing/swing_quick_guide.htm
+     *
+     *   I know the assignment said not to reference online code,
+     *   and I did not for the logic portions. However, for the
+     *   extra-credit GUI portion, I did reference online docs
+     *   and resources, and I have cited my sources appropriately.
      */
 
     private JFrame mainFrame;
