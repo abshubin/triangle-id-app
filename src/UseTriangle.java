@@ -8,7 +8,7 @@
 
 import java.util.*;
 
-public class TriangleIDApp {
+public class UseTriangle {
     static Triangle currentTriangle = null;
     static TriangleUI gui = null;
 

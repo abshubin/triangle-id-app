@@ -8,7 +8,6 @@
 
 import java.awt.*;
 import java.awt.event.*;
-import java.awt.geom.Arc2D;
 import javax.swing.*;
 
 public class TriangleUI {
@@ -97,8 +96,8 @@ public class TriangleUI {
                     String bString = sideB.getText();
                     String cString = sideC.getText();
 
-                    if (TriangleIDApp.inputIsValid(aString, bString, cString)) {
-                        String id = TriangleIDApp.idTriangle(Double.parseDouble(aString),
+                    if (UseTriangle.inputIsValid(aString, bString, cString)) {
+                        String id = UseTriangle.idTriangle(Double.parseDouble(aString),
                                                                 Double.parseDouble(bString),
                                                                 Double.parseDouble(cString));
                         statusLabel.setText(id);
