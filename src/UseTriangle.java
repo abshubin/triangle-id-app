@@ -30,12 +30,18 @@ public class UseTriangle {
         }
 
         // If the triangle is valid, identify type
-        String type = "scalene"; // Scalene unless proven otherwise
+        String type = null;
         if (currentTriangle.isEqualateral()) {
             type = "equilateral";
         }
         else if (currentTriangle.isIsosceles()) {
             type = "isosceles";
+        }
+        else if (currentTriangle.isScalene()) {
+            type = "scalene";
+        }
+        else {
+            return "This is not a valid triangle.";
         }
         return "This triangle is " + type + ".";
     }
