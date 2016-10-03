@@ -3,7 +3,7 @@ import java.util.InputMismatchException;
 /*
  * Triangle.java
  *
- * Version 1.0.0
+ * Version 2.0.0
  *
  * Created 9/9/16 by Andrew Shubin
  */
@@ -14,7 +14,7 @@ public class Triangle {
     
     public Triangle(double a, double b, double c) throws InputMismatchException {
         if ((a <= 0) || (b <= 0) || (c <= 0)) {
-            throw new InputMismatchException();
+            throw new InputMismatchException("Negative numbers not accepted.");
         }
         this.sideA = a;
         this.sideB = b;
@@ -29,8 +29,10 @@ public class Triangle {
         return sideA == sideB || sideB == sideC || sideC == sideA;
     }
     
-    public boolean isScalene() {
-        return sideA != sideB && sideB != sideC && sideC != sideA;
+    public static boolean notATriangle(double a, double b, double c) {
+        double max = Math.max(a, Math.max(b, c));
+        return max >= (a + b + c - max); // Triangle if longest side is shorter
+                                         // than the sum of the other two sides
     }
 
 }
