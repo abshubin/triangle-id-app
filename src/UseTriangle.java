@@ -1,7 +1,7 @@
 /*
  * TriangleIDApp.java
  *
- * Version 1.0.0
+ * Version 2.0.0
  *
  * Created 9/11/16 by Andrew Shubin
  */
@@ -14,17 +14,18 @@ public class UseTriangle {
         gui = new TriangleUI();
     }
 
-    public static String idTriangle(double aRaw, double bRaw, double cRaw) {
-        double a = Math.abs(aRaw);
-        double b = Math.abs(bRaw);
-        double c = Math.abs(cRaw);
-
+    public static String idTriangle(double a, double b, double c) {
         // Test for triangle validity
-        if (invalidTriangle(a, b, c)) {
+        if (Triangle.notATriangle(a, b, c)) {
             return "This is not a valid triangle.";
         }
         else {
-            currentTriangle = new Triangle(a, b, c);
+            try {
+                currentTriangle = new Triangle(a, b, c);
+            }
+            catch (InputMismatchException e) {
+                return "Please input numbers greater than 0.";
+            }
         }
 
         // If the triangle is valid, identify type
@@ -35,23 +36,14 @@ public class UseTriangle {
         else if (currentTriangle.isIsosceles()) {
             type = "isosceles";
         }
-        else if (currentTriangle.isScalene()) {
-            type = "scalene";
-        }
         else {
-            return "This is not a valid triangle.";
+            type = "scalene";
         }
         return "This triangle is " + type + ".";
     }
 
     public static boolean inputIsValid(String a, String b, String c) {
         return isDouble(a) && isDouble(b) && isDouble(c);
-    }
-
-    private static boolean invalidTriangle(double a, double b, double c) {
-        double max = Math.max(a, Math.max(b, c));
-        return max >= (a + b + c - max); // Triangle if longest side is shorter
-                                        // than the sum of the other two sides
     }
 
     private static boolean isDouble(String s) {
