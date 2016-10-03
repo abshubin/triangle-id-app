@@ -26,7 +26,7 @@ public class UseTriangle {
                 currentTriangle = new Triangle(a, b, c);
             }
             catch (InputMismatchException e) {
-                return "Please input numbers greater than 0.";
+                return "This is not a valid triangle.";
             }
         }
 
