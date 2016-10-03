@@ -1,7 +1,7 @@
 /*
  * TriangleUI.java
  *
- * Version 1.0.0
+ * Version 2.0.0
  *
  * Created 9/9/16 by Andrew Shubin
  */
