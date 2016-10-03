@@ -1,3 +1,5 @@
+import java.util.InputMismatchException;
+
 /*
  * Triangle.java
  *
@@ -10,13 +12,16 @@ public class Triangle {
     private double sideB = 0;
     private double sideC = 0;
     
-    public Triangle(double a, double b, double c) {
-        this.sideA = Math.abs(a);
-        this.sideB = Math.abs(b);
-        this.sideC = Math.abs(c);
+    public Triangle(double a, double b, double c) throws InputMismatchException {
+        if ((a <= 0) || (b <= 0) || (c <= 0)) {
+            throw new InputMismatchException();
+        }
+        this.sideA = a;
+        this.sideB = b;
+        this.sideC = c;
     }
     
-    public boolean isEqualateral() {
+    public boolean isEquilateral() {
         return sideA == sideB && sideB == sideC;
     }
     

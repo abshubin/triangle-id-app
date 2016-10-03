@@ -6,8 +6,6 @@
  * Created 9/11/16 by Andrew Shubin
  */
 
-import java.util.*;
-
 public class UseTriangle {
     static Triangle currentTriangle = null;
     static TriangleUI gui = null;
@@ -31,7 +29,7 @@ public class UseTriangle {
 
         // If the triangle is valid, identify type
         String type = null;
-        if (currentTriangle.isEqualateral()) {
+        if (currentTriangle.isEquilateral()) {
             type = "equilateral";
         }
         else if (currentTriangle.isIsosceles()) {
