@@ -6,6 +6,8 @@
  * Created 9/11/16 by Andrew Shubin
  */
 
+import java.util.InputMismatchException;
+
 public class UseTriangle {
     static Triangle currentTriangle = null;
     static TriangleUI gui = null;

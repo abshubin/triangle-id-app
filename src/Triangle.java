@@ -1,5 +1,3 @@
-import java.util.InputMismatchException;
-
 /*
  * Triangle.java
  *
@@ -7,6 +5,9 @@ import java.util.InputMismatchException;
  *
  * Created 9/9/16 by Andrew Shubin
  */
+
+import java.util.InputMismatchException;
+
 public class Triangle {
     private double sideA = 0;
     private double sideB = 0;
