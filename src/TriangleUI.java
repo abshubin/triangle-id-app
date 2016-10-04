@@ -28,7 +28,7 @@ public class TriangleUI {
     }
     
     private void prepareGUI() {
-        mainFrame = new JFrame("A Triagle Identifier");
+        mainFrame = new JFrame("A Triangle Identifier");
         mainFrame.setSize(700, 300);
         mainFrame.setLocationRelativeTo(null);
         mainFrame.setLayout(new GridLayout(3,1));

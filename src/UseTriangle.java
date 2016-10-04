@@ -25,6 +25,13 @@ public class UseTriangle {
             try {
                 currentTriangle = new Triangle(a, b, c);
             }
+            /*
+             *  The notATriangle() method should prevent
+             *  negative inputs from being accepted, so
+             *  this is not the primary negativity tester,
+             *  but rather a backup in case some negatives
+             *  slip through notATriangle().
+             */
             catch (InputMismatchException e) {
                 return "This is not a valid triangle.";
             }
